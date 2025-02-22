@@ -2,7 +2,9 @@
 name = "projeto-streamlit-pratico"
 version = "0.1.0"
 description = ""
-authors = ["Douglas França <douglas_nts@hotmail.com>"]
+authors = [
+    {name = "Douglas França",email = "douglas_nts@hotmail.com"}
+]
 readme = "README.md"
 package-mode = false
 requires-python = ">=3.11"
