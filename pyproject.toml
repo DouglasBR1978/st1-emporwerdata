@@ -1,17 +1,16 @@
-[tool.poetry]
+[project]
 name = "projeto-streamlit-pratico"
 version = "0.1.0"
 description = ""
 authors = ["Douglas França <douglas_nts@hotmail.com>"]
 readme = "README.md"
 package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.11"
-streamlit = "^1.37.1"
-pandas = "^2.2.2"
-
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit (>=1.37.1,<2.0.0)",
+    "pandas (>=2.2.2,<3.0.0)"
+]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
